@@ -138,7 +138,7 @@
             display-name = "BT/HW";
             bindings = <
 &studio_unlock  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                    &trans          &out OUT_USB  &out OUT_BLE  &rgb_ug RGB_ON   &rgb_ug RGB_OFF  &rgb_ug RGB_BRI  &rgb_ug RGB_BRD
-&trans          &bt BT_CLR    &bt BT_CLR_ALL &trans        &trans        &trans            &trans  &trans  &trans  &bootloader   &sys_reset    &rgb_ug RGB_EFF  &rgb_ug RGB_EFR  &rgb_ug RGB_SPI  &trans
+&trans          &bt BT_CLR    &bt BT_CLR_ALL &trans        &trans        &trans            &trans  &trans  &bootloader   &sys_reset    &rgb_ug RGB_EFF  &rgb_ug RGB_EFR  &rgb_ug RGB_SPI  &trans
 &trans          &trans        &trans         &trans        &trans        &trans  &trans            &trans          &trans  &trans        &trans        &trans           &trans           &trans           &trans
                                              &trans        &trans        &trans                                    &trans  &trans        &trans
             >;
