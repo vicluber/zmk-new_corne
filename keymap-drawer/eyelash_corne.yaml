@@ -63,7 +63,7 @@ layers:
   - (
   - )
   - {t: '$$mdi:backspace$$', type: backspace}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:apple-keyboard-shift$$
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:mouse-left-click-outline$$
   - $$mdi:mouse-scroll-wheel$$
@@ -89,7 +89,7 @@ layers:
   - {t: '=', s: +}
   - _
   - '{'
-  - '}'
+  - {t: \, s: '|'}
   - '|'
   - '~'
   - $$mdi:apple-keyboard-option$$
