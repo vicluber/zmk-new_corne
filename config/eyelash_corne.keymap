@@ -35,13 +35,6 @@
             bindings = <&kp LEFT_SHIFT>, <&kp CAPS>;
         };
     };
-    
-    // Fix spacebar lag by adjusting layer-tap behavior timing
-    &lt {
-        tapping-term-ms = <300>;  // Increase from default 200ms to 300ms
-        quick-tap-ms = <175>;     // Allow quick successive taps
-        flavor = "tap-preferred"; // Prioritize tap (space) over hold (layer)
-    };
 
     rgb_encoder: rgb_encoder {
         compatible = "zmk,behavior-sensor-rotate";
@@ -69,6 +62,13 @@
             bindings = <&kp BACKSPACE>;
             key-positions = <16 17>;
         };
+    };
+
+    // Fix spacebar lag by adjusting layer-tap behavior timing
+    &lt {
+        tapping-term-ms = <300>;  // Increase from default 200ms to 300ms
+        quick-tap-ms = <175>;     // Allow quick successive taps
+        flavor = "tap-preferred"; // Prioritize tap (space) over hold (layer)
     };
 
     keymap {
