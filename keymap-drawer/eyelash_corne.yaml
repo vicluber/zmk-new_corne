@@ -234,7 +234,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -299,5 +299,3 @@ combos:
   k: {t: '$$mdi:backspace$$', type: backspace}
 - p: [16, 17]
   k: {t: '$$mdi:backspace$$', type: backspace}
-- p: [45, 23, 24]
-  k: {t: '$$mdi:keyboard-return$$', type: enter}
