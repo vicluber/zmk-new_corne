@@ -13,7 +13,7 @@ layers:
   - I
   - O
   - P
-  - {t: '$$mdi:backspace$$', type: backspace}
+  - {t: '[', s: '{'}
   - $$mdi:apple-keyboard-shift$$
   - A
   - S
@@ -28,7 +28,7 @@ layers:
   - K
   - L
   - {t: ;, s: ':'}
-  - {t: '''', s: '"'}
+  - {t: ']', s: '}'}
   - $$mdi:apple-keyboard-control$$
   - Z
   - X
@@ -42,7 +42,7 @@ layers:
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, s: '?'}
-  - {t: '$$mdi:apple-keyboard-option$$', h: BT/HW}
+  - {t: '|', h: BT/HW}
   - LGUI
   - NUMBER
   - {t: '$$mdi:keyboard-space$$', h: Fn}
