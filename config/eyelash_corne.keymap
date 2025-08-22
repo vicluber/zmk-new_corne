@@ -73,11 +73,6 @@
             bindings = <&kp BACKSPACE>;
             key-positions = <16 17>;
         };
-
-        Enter {
-            bindings = <&kp ENTER>;
-            key-positions = <45 23 24>;
-        };
     };
 
     keymap {
@@ -135,7 +130,7 @@
             bindings = <
 &trans            &trans  &trans          &kp UP_ARROW    &trans           &trans                    &trans          &msc SCRL_UP    &mkp LCLK       &mmv MOVE_UP    &mkp RCLK        &trans  &trans
 &kp LSHIFT        &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans            &trans  &trans  &trans  &msc SCRL_DOWN  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &trans  &trans
-&kp LEFT_CONTROL  &trans  &trans          &trans          &trans           &trans  &trans            &trans          &trans          &trans          &trans          &trans           &trans  &trans
+&kp LEFT_CONTROL  &trans  &trans          &trans          &trans           &trans  &trans            &trans          &trans          &kp ENTER       &trans          &trans           &trans  &trans
                                           &trans          &trans           &trans                                    &trans          &trans          &trans
             >;
         };
