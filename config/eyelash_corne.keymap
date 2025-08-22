@@ -34,6 +34,16 @@
             #binding-cells = <0>;
             bindings = <&kp LEFT_SHIFT>, <&kp CAPS>;
         };
+        
+        // Custom layer-tap with improved timing for spacebar
+        lt_space: lt_space {
+            compatible = "zmk,behavior-hold-tap";
+            #binding-cells = <2>;
+            tapping-term-ms = <300>;
+            quick-tap-ms = <175>;
+            flavor = "tap-preferred";
+            bindings = <&mo>, <&kp>;
+        };
     };
 
     rgb_encoder: rgb_encoder {
@@ -64,13 +74,6 @@
         };
     };
 
-    // Fix spacebar lag by adjusting layer-tap behavior timing
-    &lt {
-        tapping-term-ms = <300>;  // Increase from default 200ms to 300ms
-        quick-tap-ms = <175>;     // Allow quick successive taps
-        flavor = "tap-preferred"; // Prioritize tap (space) over hold (layer)
-    };
-
     keymap {
         compatible = "zmk,keymap";
 
@@ -80,7 +83,7 @@
 &kp TAB     &kp Q  &kp W  &kp E     &kp R  &kp T                               &kp UP                &kp Y        &kp U  &kp I      &kp O    &kp P     &kp BSPC
 &kp LSHIFT  &kp A  &kp S  &kp D     &kp F  &kp G                     &kp LEFT  &kp ENTER  &kp RIGHT  &kp H        &kp J  &kp K      &kp L    &kp SEMI  &kp SQT
 &kp LCTRL   &kp Z  &kp X  &kp C     &kp V  &kp B        &kp SPACE              &kp DOWN              &kp N        &kp M  &kp COMMA  &kp DOT  &kp FSLH  &lt 5 RIGHT_ALT
-                          &kp LGUI  &mo 1  &lt 3 SPACE                                               &lt 2 SPACE  &mo 4  &kp RALT
+                          &kp LGUI  &mo 1  &lt_space 3 SPACE                                               &lt_space 2 SPACE  &mo 4  &kp RALT
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
