@@ -117,8 +117,8 @@
 
         layer_4 {
             bindings = <
-&trans            &trans  &mkp RCLK       &mmv MOVE_UP    &mkp LCLK        &msc SCRL_UP                      &trans          &trans  &trans          &kp UP_ARROW    &trans           &trans  &trans
-&kp LSHIFT        &trans  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &msc SCRL_DOWN            &trans  &trans  &trans  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans  &trans
+&trans            &trans  &trans          &kp UP_ARROW    &trans           &trans                            &trans          &trans  &mkp RCLK       &mmv MOVE_UP    &mkp LCLK        &msc SCRL_UP  &trans
+&kp LSHIFT        &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans                    &trans  &trans  &trans  &trans  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &msc SCRL_DOWN  &trans
 &kp LEFT_CONTROL  &trans  &trans          &trans          &trans           &trans          &trans            &trans          &trans  &trans          &trans          &trans           &trans  &trans
                                           &trans          &trans           &trans                                            &trans  &trans          &trans
             >;
