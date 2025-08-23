@@ -44,10 +44,10 @@ layers:
   - {t: /, s: '?'}
   - {t: '|', h: BT/HW}
   - LGUI
-  - '6'
-  - {t: '$$mdi:keyboard-return$$', h: '6'}
+  - EfesYNumeros
+  - {t: '$$mdi:keyboard-return$$', h: EfesYNumeros}
   - {t: '$$mdi:keyboard-space$$', h: SYMBOL}
-  - '4'
+  - MouseAndCursor
   - $$mdi:apple-keyboard-option$$
   SYMBOL:
   - {t: '$$mdi:transfer$$', type: trans}
@@ -98,7 +98,7 @@ layers:
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  '4':
+  MouseAndCursor:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -196,8 +196,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  '6':
-  - {t: '$$mdi:transfer$$', type: trans}
+  EfesYNumeros:
+  - $$mdi:keyboard-esc$$
   - F9
   - F10
   - F11
