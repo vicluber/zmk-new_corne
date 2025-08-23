@@ -43,7 +43,7 @@ layers:
   - {t: ., s: '>'}
   - {t: /, s: '?'}
   - {t: '|', h: BT/HW}
-  - LGUI
+  - $$mdi:apple-keyboard-option$$
   - EfesYNumeros
   - {t: '$$mdi:keyboard-return$$', h: EfesYNumeros}
   - {t: '$$mdi:keyboard-space$$', h: SYMBOL}
@@ -198,53 +198,53 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   EfesYNumeros:
   - $$mdi:keyboard-esc$$
-  - F9
-  - F10
-  - F11
-  - F12
-  - $$mdi:volume-high$$
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  - '5'
   - {t: '$$mdi:transfer$$', type: trans}
-  - $$mdi:brightness-5$$
+  - '6'
   - '7'
   - '8'
   - '9'
-  - '*'
+  - '0'
   - PRINTSCREEN
-  - {t: '$$mdi:transfer$$', type: trans}
-  - F5
-  - F6
-  - F7
-  - F8
-  - $$mdi:volume-low$$
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - $$mdi:brightness-7$$
-  - '4'
-  - '5'
-  - '6'
-  - +
-  - {t: '$$mdi:transfer$$', type: trans}
-  - $$mdi:apple-keyboard-option$$
   - F1
   - F2
   - F3
   - F4
-  - MUTE
+  - F5
+  - F6
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - '1'
-  - '2'
-  - '3'
-  - {t: '-', s: _}
+  - F7
+  - F8
+  - F9
+  - F10
+  - F11
+  - F12
+  - $$mdi:apple-keyboard-option$$
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
   - {type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - '0'
+  - {t: '$$mdi:transfer$$', type: trans}
 combos:
 - p: [23, 24]
   k: {t: '$$mdi:backspace$$', type: backspace}
