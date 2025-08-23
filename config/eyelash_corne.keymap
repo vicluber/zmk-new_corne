@@ -81,10 +81,10 @@
         default_layer {
             display-name = "QWERTY";
             bindings = <
-&kp TAB     &kp Q  &kp W  &kp E     &kp R  &kp T                                   &kp UP                &kp Y              &kp U  &kp I      &kp O    &kp P     &kp LBKT
-&kp LSHIFT  &kp A  &kp S  &kp D     &kp F  &kp G                         &kp LEFT  &kp ENTER  &kp RIGHT  &kp H              &kp J  &kp K      &kp L    &kp SEMI  &kp RBKT
-&kp LCTRL   &kp Z  &kp X  &kp C     &kp V  &kp B            &kp SPACE              &kp DOWN              &kp N              &kp M  &kp COMMA  &kp DOT  &kp FSLH  &lt 3 NON_US_BSLH
-                          &kp LGUI  &mo 4  &lt_space 4 RET                                               &lt_space 1 SPACE  &mo 2  &kp RALT
+&kp TAB     &kp Q  &kp W  &kp E         &kp R  &kp T                                   &kp UP                &kp Y              &kp U  &kp I      &kp O    &kp P     &kp LBKT
+&kp LSHIFT  &kp A  &kp S  &kp D         &kp F  &kp G                         &kp LEFT  &kp ENTER  &kp RIGHT  &kp H              &kp J  &kp K      &kp L    &kp SEMI  &kp RBKT
+&kp LCTRL   &kp Z  &kp X  &kp C         &kp V  &kp B            &kp SPACE              &kp DOWN              &kp N              &kp M  &kp COMMA  &kp DOT  &kp FSLH  &lt 3 NON_US_BSLH
+                          &kp LEFT_ALT  &mo 4  &lt_space 4 RET                                               &lt_space 1 SPACE  &mo 2  &kp RALT
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
@@ -125,10 +125,10 @@
 
         EfesYNumeros {
             bindings = <
-&kp ESCAPE    &kp F9  &kp F10  &kp F11  &kp F12  &kp C_VOL_UP                    &trans          &kp C_BRIGHTNESS_INC  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp STAR   &kp PRINTSCREEN
-&trans        &kp F5  &kp F6   &kp F7   &kp F8   &kp C_VOL_DN            &trans  &trans  &trans  &kp C_BRIGHTNESS_DEC  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp PLUS   &trans
-&kp LEFT_ALT  &kp F1  &kp F2   &kp F3   &kp F4   &kp K_MUTE    &trans            &trans          &trans                &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp MINUS  &trans
-                               &trans   &trans   &trans                                          &trans                &trans        &kp NUMBER_0
+&kp ESCAPE    &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5                    &trans          &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0  &kp PRINTSCREEN
+&kp F1        &kp F2        &kp F3        &kp F4        &kp F5        &kp F6                  &trans  &trans  &trans  &kp F7        &kp F8        &kp F9        &kp F10       &kp F11       &kp F12
+&kp LEFT_ALT  &trans        &trans        &trans        &trans        &trans        &trans            &trans          &trans        &trans        &trans        &trans        &trans        &trans
+                                          &trans        &trans        &trans                                          &trans        &trans        &trans
             >;
         };
     };
