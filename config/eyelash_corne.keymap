@@ -93,9 +93,9 @@
         SpecialCharacters {
             display-name = "SYMBOL";
             bindings = <
-&trans  &kp EXCL  &kp AT  &kp HASH  &kp DLLR  &kp PRCNT                            &mmv MOVE_UP                     &kp EXCL   &kp AMPS   &kp ASTRK  &kp LPAR       &kp PRCNT  &kp BSPC
-&trans  &trans    &trans  &trans    &trans    &trans               &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp EQUAL  &kp UNDER  &kp BSLH   &kp PIPE       &kp BSLH   &kp GRAVE
-&trans  &trans    &trans  &trans    &trans    &trans     &trans                    &mmv MOVE_DOWN                   &kp AT     &kp DLLR   &kp LBRC   &kp BACKSLASH  &kp PIPE   &kp TILDE
+&trans  &kp EXCL  &kp AT  &kp HASH  &kp DLLR  &kp PRCNT                            &mmv MOVE_UP                     &kp EXCL   &kp AMPS   &kp ASTRK             &kp LPAR       &kp PRCNT  &trans
+&trans  &trans    &trans  &trans    &trans    &trans               &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp EQUAL  &kp UNDER  &kp LS(LEFT_BRACKET)  &kp PIPE       &trans     &kp GRAVE
+&trans  &trans    &trans  &trans    &trans    &trans     &trans                    &mmv MOVE_DOWN                   &kp AT     &kp DLLR   &kp LEFT_BRACKET      &kp BACKSLASH  &trans     &kp TILDE
                           &none     &none     &none                                                                 &trans     &trans     &trans
             >;
 
