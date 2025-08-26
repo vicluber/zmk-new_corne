@@ -117,7 +117,7 @@
 &studio_unlock  &bt BT_SEL 0  &bt BT_SEL 1    &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                    &trans          &out OUT_USB  &out OUT_BLE     &rgb_ug RGB_ON   &rgb_ug RGB_OFF  &rgb_ug RGB_BRI  &rgb_ug RGB_BRD
 &bootloader     &bt BT_CLR    &bt BT_CLR_ALL  &trans        &trans        &trans                  &trans  &trans  &trans  &sys_reset    &rgb_ug RGB_EFF  &rgb_ug RGB_EFR  &rgb_ug RGB_SPI  &trans           &trans
 &trans          &trans        &trans          &trans        &trans        &trans        &trans            &trans          &trans        &trans           &trans           &trans           &trans           &trans
-                                              &tog 5        &trans        &trans                                          &trans        &trans           &trans
+                                              &tog 5        &tog 6        &trans                                          &trans        &trans           &trans
             >;
 
             sensor-bindings = <&rgb_encoder>;
@@ -144,10 +144,10 @@
         layer_6 {
             display-name = "CHARS";
             bindings = <
-&kp TILDE   &kp EXCL    &kp AT      &kp HASH    &kp DLLR    &kp PRCNT                           &kp CARET           &kp AMPS    &kp ASTRK   &kp LPAR    &kp RPAR    &kp UNDER   &kp PLUS
-&kp GRAVE   &kp MINUS   &kp EQUAL   &kp LBKT    &kp RBKT    &kp BSLH                    &trans  &trans      &trans  &kp PIPE    &kp LBRC    &kp RBRC    &kp COLON   &kp DQT     &kp QMARK
-&kp LT      &kp GT      &kp COMMA   &kp DOT     &kp FSLH    &kp SEMI    &trans                  &trans              &kp APOS    &kp LPAR    &kp RPAR    &kp LBKT    &kp RBKT    &trans
-                                    &trans      &mo 6       &trans                                                  &trans      &trans      &trans
+&kp TILDE  &kp EXCL   &kp AT     &kp HASH      &kp DLLR        &kp PRCNT                    &kp CARET          &kp AMPS  &kp ASTRK  &kp LPAR  &kp RPAR   &kp UNDER  &kp PLUS
+&kp GRAVE  &kp MINUS  &kp EQUAL  &kp LBKT      &kp RBKT        &kp BSLH             &trans  &trans     &trans  &kp PIPE  &kp LBRC   &kp RBRC  &kp COLON  &kp DQT    &kp QMARK
+&kp LT     &kp GT     &kp COMMA  &kp DOT       &kp FSLH        &kp SEMI   &trans            &trans             &kp APOS  &kp LPAR   &kp RPAR  &kp LBKT   &kp RBKT   &trans
+                                 &kp LEFT_ALT  &kp LEFT_SHIFT  &trans                                          &trans    &trans     &trans
             >;
         };
     };
