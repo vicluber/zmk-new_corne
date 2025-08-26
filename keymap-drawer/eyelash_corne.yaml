@@ -336,7 +336,7 @@ layers:
   - )
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - BT/HW
   - $$mdi:apple-keyboard-option$$
   - $$mdi:apple-keyboard-shift$$
   - {t: '$$mdi:transfer$$', type: trans}
