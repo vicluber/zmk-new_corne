@@ -134,10 +134,10 @@
 
         lol {
             bindings = <
-&trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &trans                    &trans          &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp Q         &kp W         &kp E         &kp R         &kp T             &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans        &trans        &trans        &kp F         &kp G   &trans            &trans          &trans  &trans  &trans  &trans  &trans  &mo 3
-                                    &trans        &trans        &trans                                    &trans  &trans  &trans
+&trans   &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5                    &trans          &trans  &trans  &trans  &trans  &trans  &trans
+&kp TAB  &kp Q         &kp W         &kp E         &kp R         &kp T                   &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans   &kp A         &kp S         &kp D         &kp F         &kp G         &trans            &trans          &trans  &trans  &trans  &trans  &trans  &mo 3
+                                     &trans        &trans        &kp SPACE                                       &trans  &trans  &trans
             >;
         };
 
