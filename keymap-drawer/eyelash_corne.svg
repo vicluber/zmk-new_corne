@@ -564,6 +564,12 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="210" y="74" width="28" height="26" class="combo backspace"/>
 <use href="#mdi:backspace" xlink:href="#mdi:backspace" x="215" y="78" height="18" width="18.0" class="combo backspace tap glyph mdi:backspace"/>
 </g>
+<g class="combo combopos-2">
+<rect rx="6" ry="6" x="241" y="193" width="28" height="26" class="combo"/>
+<text x="255" y="206" class="combo tap">
+<tspan x="255" dy="-0.6em">LEFT</tspan><tspan x="255" dy="1.2em">META</tspan>
+</text>
+</g>
 </g>
 </g>
 <g transform="translate(40, 318)" class="layer-SYMBOL">
@@ -824,6 +830,12 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="210" y="74" width="28" height="26" class="combo backspace"/>
 <use href="#mdi:backspace" xlink:href="#mdi:backspace" x="215" y="78" height="18" width="18.0" class="combo backspace tap glyph mdi:backspace"/>
 </g>
+<g class="combo combopos-2">
+<rect rx="6" ry="6" x="241" y="193" width="28" height="26" class="combo"/>
+<text x="255" y="206" class="combo tap">
+<tspan x="255" dy="-0.6em">LEFT</tspan><tspan x="255" dy="1.2em">META</tspan>
+</text>
+</g>
 </g>
 </g>
 <g transform="translate(40, 637)" class="layer-MouseAndCursor">
@@ -1079,6 +1091,12 @@ rect.held, rect.combo.held {
 <g class="combo backspace combopos-1">
 <rect rx="6" ry="6" x="210" y="74" width="28" height="26" class="combo backspace"/>
 <use href="#mdi:backspace" xlink:href="#mdi:backspace" x="215" y="78" height="18" width="18.0" class="combo backspace tap glyph mdi:backspace"/>
+</g>
+<g class="combo combopos-2">
+<rect rx="6" ry="6" x="241" y="193" width="28" height="26" class="combo"/>
+<text x="255" y="206" class="combo tap">
+<tspan x="255" dy="-0.6em">LEFT</tspan><tspan x="255" dy="1.2em">META</tspan>
+</text>
 </g>
 </g>
 </g>
@@ -1361,6 +1379,12 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="210" y="74" width="28" height="26" class="combo backspace"/>
 <use href="#mdi:backspace" xlink:href="#mdi:backspace" x="215" y="78" height="18" width="18.0" class="combo backspace tap glyph mdi:backspace"/>
 </g>
+<g class="combo combopos-2">
+<rect rx="6" ry="6" x="241" y="193" width="28" height="26" class="combo"/>
+<text x="255" y="206" class="combo tap">
+<tspan x="255" dy="-0.6em">LEFT</tspan><tspan x="255" dy="1.2em">META</tspan>
+</text>
+</g>
 </g>
 </g>
 <g transform="translate(40, 1274)" class="layer-EfesYNumeros">
@@ -1612,6 +1636,12 @@ rect.held, rect.combo.held {
 <g class="combo backspace combopos-1">
 <rect rx="6" ry="6" x="210" y="74" width="28" height="26" class="combo backspace"/>
 <use href="#mdi:backspace" xlink:href="#mdi:backspace" x="215" y="78" height="18" width="18.0" class="combo backspace tap glyph mdi:backspace"/>
+</g>
+<g class="combo combopos-2">
+<rect rx="6" ry="6" x="241" y="193" width="28" height="26" class="combo"/>
+<text x="255" y="206" class="combo tap">
+<tspan x="255" dy="-0.6em">LEFT</tspan><tspan x="255" dy="1.2em">META</tspan>
+</text>
 </g>
 </g>
 </g>
@@ -1866,6 +1896,12 @@ rect.held, rect.combo.held {
 <g class="combo backspace combopos-1">
 <rect rx="6" ry="6" x="210" y="74" width="28" height="26" class="combo backspace"/>
 <use href="#mdi:backspace" xlink:href="#mdi:backspace" x="215" y="78" height="18" width="18.0" class="combo backspace tap glyph mdi:backspace"/>
+</g>
+<g class="combo combopos-2">
+<rect rx="6" ry="6" x="241" y="193" width="28" height="26" class="combo"/>
+<text x="255" y="206" class="combo tap">
+<tspan x="255" dy="-0.6em">LEFT</tspan><tspan x="255" dy="1.2em">META</tspan>
+</text>
 </g>
 </g>
 </g>
@@ -2132,6 +2168,12 @@ rect.held, rect.combo.held {
 <g class="combo backspace combopos-1">
 <rect rx="6" ry="6" x="210" y="74" width="28" height="26" class="combo backspace"/>
 <use href="#mdi:backspace" xlink:href="#mdi:backspace" x="215" y="78" height="18" width="18.0" class="combo backspace tap glyph mdi:backspace"/>
+</g>
+<g class="combo combopos-2">
+<rect rx="6" ry="6" x="241" y="193" width="28" height="26" class="combo"/>
+<text x="255" y="206" class="combo tap">
+<tspan x="255" dy="-0.6em">LEFT</tspan><tspan x="255" dy="1.2em">META</tspan>
+</text>
 </g>
 </g>
 </g>

@@ -348,3 +348,5 @@ combos:
   k: {t: '$$mdi:backspace$$', type: backspace}
 - p: [16, 17]
   k: {t: '$$mdi:backspace$$', type: backspace}
+- p: [42, 43]
+  k: LEFT META
