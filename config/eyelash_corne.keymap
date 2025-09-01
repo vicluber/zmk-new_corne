@@ -73,6 +73,11 @@
             bindings = <&kp BACKSPACE>;
             key-positions = <16 17>;
         };
+
+        metakey_super {
+            bindings = <&kp LEFT_META>;
+            key-positions = <42 43>;
+        };
     };
 
     keymap {
