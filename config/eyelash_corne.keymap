@@ -109,10 +109,10 @@
 
         MouseAndCursor {
             bindings = <
-&trans  &trans  &trans          &kp UP_ARROW    &trans           &trans                    &trans          &msc SCRL_UP    &mkp LCLK       &mmv MOVE_UP    &mkp RCLK        &trans     &trans
-&trans  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans            &trans  &trans  &trans  &msc SCRL_DOWN  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &mkp LCLK  &trans
-&trans  &trans  &trans          &trans          &trans           &trans  &trans            &trans          &trans          &trans          &trans          &trans           &trans     &trans
-                                &trans          &trans           &trans                                    &trans          &trans          &trans
+&trans  &trans  &mkp RCLK       &mmv MOVE_UP    &mkp LCLK        &msc SCRL_UP                      &trans          &msc SCRL_UP    &kp ENTER       &kp UP_ARROW    &trans           &trans  &trans
+&trans  &trans  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &msc SCRL_DOWN            &trans  &trans  &trans  &msc SCRL_DOWN  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans  &trans
+&trans  &trans  &trans          &trans          &trans           &trans          &trans            &trans          &trans          &trans          &trans          &trans           &trans  &trans
+                                &trans          &trans           &trans                                            &trans          &trans          &trans
             >;
         };
 
