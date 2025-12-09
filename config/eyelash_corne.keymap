@@ -130,10 +130,10 @@
 
         EfesYNumeros {
             bindings = <
-&kp ESCAPE        &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5                    &trans          &kp NUMBER_6  &kp NUMBER_7   &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0  &kp PRINTSCREEN
-&kp LEFT_SHIFT    &kp F2        &kp F3        &kp F4        &kp F5        &kp F6                  &trans  &trans  &trans  &kp F7        &kp F8         &kp F9        &kp F10       &kp F11       &kp F12
-&kp LEFT_CONTROL  &trans        &kp C_MUTE    &kp C_VOL_DN  &kp C_VOL_UP  &trans        &trans            &trans          &trans        &kp C_BRI_DEC  &kp C_BRI_UP  &trans        &trans        &trans
-                                              &trans        &trans        &trans                                          &trans        &trans         &trans
+&trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5                    &trans          &kp F1  &kp F2         &kp F3        &kp F4   &kp F5   &kp F6
+&trans  &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0            &trans  &trans  &trans  &kp F7  &kp F8         &kp F9        &kp F10  &kp F11  &kp F12
+&trans  &trans        &kp C_MUTE    &kp C_VOL_DN  &kp C_VOL_UP  &trans        &trans            &trans          &trans  &kp C_BRI_DEC  &kp C_BRI_UP  &trans   &trans   &trans
+                                    &trans        &trans        &trans                                          &trans  &trans         &trans
             >;
         };
     };
