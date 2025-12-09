@@ -197,7 +197,7 @@ layers:
   - $$mdi:bluetooth-off$$
   - {t: '$$mdi:transfer$$', type: trans}
   EfesYNumeros:
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:keyboard-esc$$
   - '1'
   - '2'
   - '3'
