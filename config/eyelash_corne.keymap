@@ -109,20 +109,20 @@
 
         MouseAndCursor {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                    &trans          &trans  &trans          &kp UP_ARROW  &trans     &trans  &kp LS(LG(PRINTSCREEN))
-&trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &kp LEFT_ARROW  &kp DOWN      &kp RIGHT  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans            &trans          &trans  &trans          &trans        &trans     &trans  &trans
-                        &trans  &trans  &trans                                    &trans  &trans          &trans
+&trans  &trans  &trans  &trans  &trans  &trans                    &trans          &kp PAGE_UP    &trans          &kp UP_ARROW  &trans     &trans  &kp LS(LG(PRINTSCREEN))
+&trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &kp PAGE_DOWN  &kp LEFT_ARROW  &kp DOWN      &kp RIGHT  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans            &trans          &trans         &trans          &trans        &trans     &trans  &trans
+                        &trans  &trans  &trans                                    &trans         &trans          &trans
             >;
         };
 
         BluetoothAndHardware {
             display-name = "BT/HW";
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                    &trans          &out OUT_USB    &out OUT_BLE     &rgb_ug RGB_ON   &rgb_ug RGB_OFF  &rgb_ug RGB_BRI  &rgb_ug RGB_BRD
-&trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &sys_reset      &rgb_ug RGB_EFF  &rgb_ug RGB_EFR  &rgb_ug RGB_SPI  &trans           &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans            &trans          &bt BT_SEL 0    &bt BT_SEL 1     &bt BT_SEL 2     &bt BT_SEL 3     &bt BT_SEL 4     &trans
-                        &trans  &trans  &trans                                    &bt BT_CLR_ALL  &bt BT_CLR       &trans
+&trans  &trans  &trans          &mmv MOVE_UP    &trans           &trans                    &trans          &out OUT_USB    &out OUT_BLE     &rgb_ug RGB_ON   &rgb_ug RGB_OFF  &rgb_ug RGB_BRI  &rgb_ug RGB_BRD
+&trans  &trans  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &trans            &trans  &trans  &trans  &sys_reset      &rgb_ug RGB_EFF  &rgb_ug RGB_EFR  &rgb_ug RGB_SPI  &trans           &trans
+&trans  &trans  &trans          &trans          &trans           &trans  &trans            &trans          &bt BT_SEL 0    &bt BT_SEL 1     &bt BT_SEL 2     &bt BT_SEL 3     &bt BT_SEL 4     &trans
+                                &trans          &trans           &trans                                    &bt BT_CLR_ALL  &bt BT_CLR       &trans
             >;
 
             sensor-bindings = <&rgb_encoder>;
