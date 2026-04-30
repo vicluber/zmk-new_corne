@@ -89,6 +89,11 @@
             bindings = <&kp ENTER>;
             key-positions = <45 46>;
         };
+
+        entermiddle {
+            bindings = <&kp ENTER>;
+            key-positions = <44 45>;
+        };
     };
 
     keymap {
