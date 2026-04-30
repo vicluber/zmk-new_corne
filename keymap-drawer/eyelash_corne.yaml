@@ -256,3 +256,5 @@ combos:
   k: BT/HW
 - p: [45, 46]
   k: {t: '$$mdi:keyboard-return$$', type: enter}
+- p: [44, 45]
+  k: {t: '$$mdi:keyboard-return$$', type: enter}
